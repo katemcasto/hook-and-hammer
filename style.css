@@ -1,0 +1,43 @@
+main {
+    display: block;
+    background-image: url("https://live.staticflickr.com/4049/4562026127_e86daef00e_b.jpg");
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+  }
+}
+* {
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, main{
+    height: 100%;
+}
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4ffa74;
+    padding: 10px;
+}
+nav a:visited,
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav >ul {
+display: inline;
+padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
+}
