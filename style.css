@@ -1,10 +1,9 @@
 main {
     display: block;
-    background-color: rgb(70, 70, 70);
+    background-image: url("images/background.png");
     padding-top: 3em;
     padding-bottom: 3em;
     min-height: 85%;
-  }
 }
 * {
     margin: 0;
@@ -29,6 +28,7 @@ nav a:visited,
 nav a:link {
   color: #fff;
   text-decoration: none;
+  background-color: #161550;
 }
 
 nav >ul {
@@ -42,14 +42,8 @@ nav > ul > li {
   margin: 0 5px 0 5px;
 }
 h1{
-  color: #fff;
+  color: rgb(8, 8, 8);
   text-align: center;
-}
-.fancywords{
-  font-family: Papyrus;
-}
-.thickwords{
-  font-family: fantasy;
 }
 
 .logo{
